@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GainHabits | Profile</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/style/profile.css">
+</head>
+<body>
+    <div class="container">
+        <div class="backDashboard">
+            <a href="dashboard.php">
+                <i class="fa-solid fa-arrow-left"></i>
+                Back to Dashboard
+            </a>
+        </div>
+
+        <!-- Profile Settings Card -->
+        <div class="card">
+            <h2>Profile Settings</h2>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" disabled value="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" disabled value="john.doe@example.com">
+            </div>
+        </div>
+
+        <!-- Habits Card -->
+        <div class="card">
+            <div class="add">
+                <h2>My Habits</h2>
+                <button class="btn-add">
+                    <i class="fas fa-plus"></i>
+                    Add New Habit
+                </button>
+            </div>
+
+            <div class="habits-list">
+                <div class="habit">
+                    <p>English Speaking</p>
+                    <button class="edit-icon" title="Edit habit">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+                </div>
+                <div class="habit">
+                    <p>French Speaking</p>
+                    <button class="edit-icon" title="Edit habit">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+                </div>
+                <div class="habit">
+                    <p>Arabic Speaking</p>
+                    <button class="edit-icon" title="Edit habit">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+                </div>
+                <div class="habit">
+                    <p>Daily Exercise</p>
+                    <button class="edit-icon" title="Edit habit">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+/* Supprime les marges par défaut de tous les éléments */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclut les bordures et le padding dans la largeur/hauteur */
+  }
+  
+  /* Assure que les images ne dépassent jamais leur conteneur */
+  img {
+    max-width: 100%;
+    height: auto; /* Maintient le ratio d'aspect des images */
+  }
+  
+  /* Empêche les listes d'avoir des puces ou des numéros par défaut */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Supprime le soulignement des liens par défaut */
+  a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: inherit; /* Inhère la couleur de son conteneur parent */
+  }
+  
+  /* Réinitialise le style des boutons */
+  button {
+    background: none;
+    border: none;
+    cursor: pointer; /* Ajoute un pointeur pour montrer que c'est cliquable */
+  }
+  
+  /* Ajoute un comportement de police cohérent */
+  body {
+    font-family:"Varela Round", sans-serif; /* Définit une police par défaut */
+    line-height: 1.6; /* Ajoute un espacement vertical agréable entre les lignes */
+  }
+  
